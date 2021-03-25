@@ -21,6 +21,9 @@ use lenz\linkfield\records\LinkRecord;
  */
 class LinkField extends ForeignField
 {
+  
+  public $allowedLinkNames = '*';
+  
   /**
    * @var bool
    */
